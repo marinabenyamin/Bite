@@ -1,0 +1,86 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.review{
+    display: flex;
+}
+
+.reviews{
+    background-color: black;
+    height: 90vh;
+}
+.reviews h3{
+    text-align: center; 
+    padding: 20px;
+    color:  white;
+}
+.rev{
+    display: flex;   
+    width: 80%; 
+    border:1px solid white;
+    margin: auto;
+}
+.rev p{
+    padding: 20px;
+    color: aliceblue;
+}
+.review img{
+    width: 50%;
+    margin-left: 50%;
+}
+.review4 img{
+    margin-left: 71.6%;
+}
+.reviews button{
+    padding: 15px;
+    background-color: #72f2c7;
+    border: none;
+}
+.rev-button{
+    margin: 5%;
+    text-align: center;
+}
+.reviews button:hover{
+    background-color: white;
+}
+
+/*End Sectiom Reviews*/
+.use{
+    display: flex;
+    width: 96%; 
+    margin: auto;
+    justify-content: space-evenly;
+}
+.uses h3{
+    text-align: center;
+}
+.use img{
+    width: 100%;
+}
+.us{
+    padding: 6px;
+}
+.us p{
+    text-align: center;
+}
+.us h5{
+    text-align: center;
+}
+.use-button{
+    text-align: center;
+}
+.us-button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    border: none;
+}
+.us-button:hover{
+    background-color: #72f2c7;
+    color: black;
+}
+
+
