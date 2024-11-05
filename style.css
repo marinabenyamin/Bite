@@ -3,10 +3,25 @@ body
     margin: 0;
     padding: 0;
 }
-.review{
-    display: flex;
+
+.reviews {
+    position: relative;
 }
 
+.review {
+    display: none; 
+    opacity: 0; 
+    transition: opacity 0.5s ease;
+}
+
+.review.active {
+    display: block; 
+    opacity: 1; 
+}
+
+.cards{
+    display: flex;
+}
 .reviews{
     background-color: black;
     height: 90vh;
